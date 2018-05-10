@@ -23,6 +23,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+Zero/	# Zero optimizations output
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -66,7 +67,7 @@ StyleCopReport.xml
 *.obj
 *.iobj
 *.pch
-# *.pdb
+*.pdb
 *.ipdb
 *.pgc
 *.pgd

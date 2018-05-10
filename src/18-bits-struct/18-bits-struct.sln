@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18-bits-struct", "18-bits-struct\18-bits-struct.vcxproj", "{CF2A5408-6F79-426C-8657-C332FF4D36A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		Zero|x64 = Zero|x64
+		Zero|x86 = Zero|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF2A5408-6F79-426C-8657-C332FF4D36A5}.Debug|x64.ActiveCfg = Debug|x64
+		{CF2A5408-6F79-426C-8657-C332FF4D36A5}.Debug|x64.Build.0 = Debug|x64
+		{CF2A5408-6F79-426C-8657-C332FF4D36A5}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF2A5408-6F79-426C-8657-C332FF4D36A5}.Debug|x86.Build.0 = Debug|Win32
+		{CF2A5408-6F79-426C-8657-C332FF4D36A5}.Release|x64.ActiveCfg = Release|x64
+		{CF2A5408-6F79-426C-8657-C332FF4D36A5}.Release|x64.Build.0 = Release|x64
+		{CF2A5408-6F79-426C-8657-C332FF4D36A5}.Release|x86.ActiveCfg = Release|Win32
+		{CF2A5408-6F79-426C-8657-C332FF4D36A5}.Release|x86.Build.0 = Release|Win32
+		{CF2A5408-6F79-426C-8657-C332FF4D36A5}.Zero|x64.ActiveCfg = Zero|x64
+		{CF2A5408-6F79-426C-8657-C332FF4D36A5}.Zero|x64.Build.0 = Zero|x64
+		{CF2A5408-6F79-426C-8657-C332FF4D36A5}.Zero|x86.ActiveCfg = Zero|Win32
+		{CF2A5408-6F79-426C-8657-C332FF4D36A5}.Zero|x86.Build.0 = Zero|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6EB2B74-3D9F-4D7A-A365-149075834DB7}
+	EndGlobalSection
+EndGlobal

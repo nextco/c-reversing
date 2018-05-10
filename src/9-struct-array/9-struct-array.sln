@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9-struct-array", "9-struct-array\9-struct-array.vcxproj", "{462D16B6-0D3A-43E0-98F4-86577CB402B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		Zero|x64 = Zero|x64
+		Zero|x86 = Zero|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{462D16B6-0D3A-43E0-98F4-86577CB402B5}.Debug|x64.ActiveCfg = Debug|x64
+		{462D16B6-0D3A-43E0-98F4-86577CB402B5}.Debug|x64.Build.0 = Debug|x64
+		{462D16B6-0D3A-43E0-98F4-86577CB402B5}.Debug|x86.ActiveCfg = Debug|Win32
+		{462D16B6-0D3A-43E0-98F4-86577CB402B5}.Debug|x86.Build.0 = Debug|Win32
+		{462D16B6-0D3A-43E0-98F4-86577CB402B5}.Release|x64.ActiveCfg = Release|x64
+		{462D16B6-0D3A-43E0-98F4-86577CB402B5}.Release|x64.Build.0 = Release|x64
+		{462D16B6-0D3A-43E0-98F4-86577CB402B5}.Release|x86.ActiveCfg = Release|Win32
+		{462D16B6-0D3A-43E0-98F4-86577CB402B5}.Release|x86.Build.0 = Release|Win32
+		{462D16B6-0D3A-43E0-98F4-86577CB402B5}.Zero|x64.ActiveCfg = Zero|x64
+		{462D16B6-0D3A-43E0-98F4-86577CB402B5}.Zero|x64.Build.0 = Zero|x64
+		{462D16B6-0D3A-43E0-98F4-86577CB402B5}.Zero|x86.ActiveCfg = Zero|Win32
+		{462D16B6-0D3A-43E0-98F4-86577CB402B5}.Zero|x86.Build.0 = Zero|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F28B386-582F-4F4B-8B19-7789A0D320C4}
+	EndGlobalSection
+EndGlobal

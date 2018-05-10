@@ -1,0 +1,5730 @@
+{
+   "architecture" : {
+      "bitSize" : 32,
+      "name" : "unknown"
+   },
+   "classes" : [],
+   "date" : "2018-04-07",
+   "decompParams" : {
+      "abiPaths" : [],
+      "completedFrontendPasses" : [],
+      "frontEndOutputFile" : "",
+      "frontendFunctions" : [],
+      "keepAllFuncs" : false,
+      "libraryTypeInfoPaths" : [],
+      "outputFile" : "",
+      "selectedDecodeOnly" : false,
+      "selectedFunctions" : [],
+      "selectedNotFoundFncs" : [],
+      "selectedRanges" : [],
+      "staticSignPaths" : [],
+      "userStaticSignPaths" : [],
+      "verboseOut" : false
+   },
+   "entryPoint" : 4198450,
+   "fileFormat" : "unknown",
+   "fileType" : "unknown",
+   "functions" : [
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "__crt_fast_decode_pointer<void (**)(void)>(void (** const)(void))",
+         "endAddr" : 4201606,
+         "fncType" : "userDefined",
+         "name" : "??$__crt_fast_decode_pointer@PAP6AXXZ@@YAPAP6AXXZQAP6AXXZ@Z",
+         "parameters" : [
+            {
+               "name" : "p",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void()**"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "void()**"
+         },
+         "startAddr" : 4201586,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "__crt_fast_encode_pointer<void (**)(void)>(void (** const)(void))",
+         "endAddr" : 4201640,
+         "fncType" : "userDefined",
+         "name" : "??$__crt_fast_encode_pointer@PAP6AXXZ@@YAPAP6AXXZQAP6AXXZ@Z",
+         "parameters" : [
+            {
+               "name" : "p",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void()**"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "void()**"
+         },
+         "startAddr" : 4201611,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "__crt_rotate_pointer_value(uint,int)",
+         "endAddr" : 4201660,
+         "fncType" : "userDefined",
+         "name" : "?__crt_rotate_pointer_value@@YAIIH@Z",
+         "parameters" : [
+            {
+               "name" : "value",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "shift",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4201647,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "__scrt_initialize_type_info(void)",
+         "endAddr" : 4203056,
+         "fncType" : "userDefined",
+         "name" : "?__scrt_initialize_type_info@@YAXXZ",
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4203044,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "__scrt_uninitialize_type_info(void)",
+         "endAddr" : 4203071,
+         "fncType" : "userDefined",
+         "name" : "?__scrt_uninitialize_type_info@@YAXXZ",
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4203059,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "__scrt_narrow_argv_policy::configure_argv(void)",
+         "endAddr" : 4200488,
+         "fncType" : "userDefined",
+         "name" : "?configure_argv@__scrt_narrow_argv_policy@@SAHXZ",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4200475,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "__scrt_narrow_environment_policy::initialize_environment(void)",
+         "endAddr" : 4200496,
+         "fncType" : "userDefined",
+         "name" : "?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4200491,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "__scrt_main_policy::set_app_type(void)",
+         "endAddr" : 4200550,
+         "fncType" : "userDefined",
+         "name" : "?set_app_type@__scrt_main_policy@@SAXXZ",
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4200541,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "__scrt_file_policy::set_commode(void)",
+         "endAddr" : 4200569,
+         "fncType" : "userDefined",
+         "name" : "?set_commode@__scrt_file_policy@@SAXXZ",
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4200552,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "__scrt_file_policy::set_fmode(void)",
+         "endAddr" : 4200586,
+         "fncType" : "userDefined",
+         "name" : "?set_fmode@__scrt_file_policy@@SAXXZ",
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4200573,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "fastcall",
+         "demangledName" : "__security_check_cookie(x)",
+         "endAddr" : 4199754,
+         "fncType" : "userDefined",
+         "name" : "@__security_check_cookie@4",
+         "parameters" : [
+            {
+               "name" : "cookie",
+               "storage" : {
+                  "type" : "register",
+                  "value" : "ecx"
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4199737,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "fastcall",
+         "demangledName" : "_guard_check_icall(x)",
+         "endAddr" : 4203913,
+         "fncType" : "userDefined",
+         "name" : "@_guard_check_icall@4",
+         "parameters" : [
+            {
+               "name" : "Target",
+               "storage" : {
+                  "type" : "register",
+                  "value" : "ecx"
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4203907,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "fastcall",
+         "demangledName" : "_guard_check_icall_nop(x)",
+         "endAddr" : 4204603,
+         "fncType" : "dynamicallyLinked",
+         "name" : "@_guard_check_icall_nop@4",
+         "parameters" : [
+            {
+               "name" : "Target",
+               "storage" : {
+                  "type" : "register",
+                  "value" : "ecx"
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4204602,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "GetCurrentProcess()",
+         "endAddr" : 4204865,
+         "fncType" : "userDefined",
+         "name" : "_GetCurrentProcess@0",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "void*"
+         },
+         "startAddr" : 4204859,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "GetCurrentProcessId()",
+         "endAddr" : 4204889,
+         "fncType" : "userDefined",
+         "name" : "_GetCurrentProcessId@0",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204883,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "GetCurrentThreadId()",
+         "endAddr" : 4204895,
+         "fncType" : "userDefined",
+         "name" : "_GetCurrentThreadId@0",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204889,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "GetModuleHandleW(x)",
+         "endAddr" : 4204925,
+         "fncType" : "userDefined",
+         "name" : "_GetModuleHandleW@4",
+         "parameters" : [
+            {
+               "name" : "lpModuleName",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i16*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "%HINSTANCE__*"
+         },
+         "startAddr" : 4204919,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "GetStartupInfoW(x)",
+         "endAddr" : 4204919,
+         "fncType" : "userDefined",
+         "name" : "_GetStartupInfoW@4",
+         "parameters" : [
+            {
+               "name" : "lpStartupInfo",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%_STARTUPINFOW*"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4204913,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "GetSystemTimeAsFileTime(x)",
+         "endAddr" : 4204901,
+         "fncType" : "userDefined",
+         "name" : "_GetSystemTimeAsFileTime@4",
+         "parameters" : [
+            {
+               "name" : "lpSystemTimeAsFileTime",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%_FILETIME*"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4204895,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "InitializeSListHead(x)",
+         "endAddr" : 4204907,
+         "fncType" : "userDefined",
+         "name" : "_InitializeSListHead@4",
+         "parameters" : [
+            {
+               "name" : "ListHead",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32*"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4204901,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "IsDebuggerPresent()",
+         "endAddr" : 4204913,
+         "fncType" : "userDefined",
+         "name" : "_IsDebuggerPresent@0",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204907,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "IsProcessorFeaturePresent(x)",
+         "endAddr" : 4204877,
+         "fncType" : "userDefined",
+         "name" : "_IsProcessorFeaturePresent@4",
+         "parameters" : [
+            {
+               "name" : "ProcessorFeature",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204871,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4201818,
+         "fncType" : "userDefined",
+         "name" : "_NtCurrentTeb",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32*"
+         },
+         "startAddr" : 4201811,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "QueryPerformanceCounter(x)",
+         "endAddr" : 4204883,
+         "fncType" : "userDefined",
+         "name" : "_QueryPerformanceCounter@4",
+         "parameters" : [
+            {
+               "name" : "lpPerformanceCount",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204877,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204613,
+         "fncType" : "userDefined",
+         "name" : "_ReadNoFence",
+         "parameters" : [
+            {
+               "name" : "Source",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204603,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204625,
+         "fncType" : "userDefined",
+         "name" : "_ReadPointerNoFence",
+         "parameters" : [
+            {
+               "name" : "Source",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void**"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "void*"
+         },
+         "startAddr" : 4204615,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "SetUnhandledExceptionFilter(x)",
+         "endAddr" : 4204859,
+         "fncType" : "userDefined",
+         "name" : "_SetUnhandledExceptionFilter@4",
+         "parameters" : [
+            {
+               "name" : "lpTopLevelExceptionFilter",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32(%_EXCEPTION_POINTERS*)*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32(%_EXCEPTION_POINTERS*)*"
+         },
+         "startAddr" : 4204853,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "TerminateProcess(x,x)",
+         "endAddr" : 4204871,
+         "fncType" : "userDefined",
+         "name" : "_TerminateProcess@8",
+         "parameters" : [
+            {
+               "name" : "hProcess",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void*"
+               }
+            },
+            {
+               "name" : "uExitCode",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204865,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "UnhandledExceptionFilter(x)",
+         "endAddr" : 4204853,
+         "fncType" : "userDefined",
+         "name" : "_UnhandledExceptionFilter@4",
+         "parameters" : [
+            {
+               "name" : "ExceptionInfo",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%_EXCEPTION_POINTERS*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204847,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203844,
+         "fncType" : "userDefined",
+         "name" : "__RTC_Initialize",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203801,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203897,
+         "fncType" : "userDefined",
+         "name" : "__RTC_Terminate",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203854,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204011,
+         "fncType" : "userDefined",
+         "name" : "__SEH_epilog4",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203990,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203990,
+         "fncType" : "userDefined",
+         "name" : "__SEH_prolog4",
+         "parameters" : [
+            {
+               "name" : "a1",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "a2",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203920,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204673,
+         "fncType" : "userDefined",
+         "name" : "___acrt_iob_func",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204667,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204934,
+         "fncType" : "userDefined",
+         "name" : "___acrt_thread_detach",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4204931,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204937,
+         "fncType" : "userDefined",
+         "name" : "___acrt_uninitialize",
+         "parameters" : [
+            {
+               "name" : "__formal",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i1"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4204934,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204940,
+         "fncType" : "userDefined",
+         "name" : "___acrt_uninitialize_critical",
+         "parameters" : [
+            {
+               "name" : "__formal",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i1"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4204937,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "ellipsis",
+         "endAddr" : 4204485,
+         "fncType" : "userDefined",
+         "name" : "___isa_available_init",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204076,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4199594,
+         "fncType" : "userDefined",
+         "name" : "___local_stdio_printf_options",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i64*"
+         },
+         "startAddr" : 4199584,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203126,
+         "fncType" : "userDefined",
+         "name" : "___local_stdio_scanf_options",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i64*"
+         },
+         "startAddr" : 4203120,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204757,
+         "fncType" : "userDefined",
+         "name" : "___p___argc",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204751,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204763,
+         "fncType" : "userDefined",
+         "name" : "___p___argv",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204757,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204799,
+         "fncType" : "userDefined",
+         "name" : "___p__commode",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204793,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4200641,
+         "fncType" : "userDefined",
+         "name" : "___raise_securityfailure",
+         "parameters" : [
+            {
+               "name" : "exception_pointers",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%_EXCEPTION_POINTERS*"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4200601,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4200902,
+         "fncType" : "userDefined",
+         "name" : "___report_gsfailure",
+         "parameters" : [
+            {
+               "name" : "a1",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i8"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4200651,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4200976,
+         "fncType" : "userDefined",
+         "name" : "___report_rangecheckfailure",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4200964,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4201187,
+         "fncType" : "userDefined",
+         "name" : "___report_securityfailure",
+         "parameters" : [
+            {
+               "name" : "failure_code",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4200979,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4201517,
+         "fncType" : "userDefined",
+         "name" : "___report_securityfailureEx",
+         "parameters" : [
+            {
+               "name" : "failure_code",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "parameter_count",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "parameters",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 8
+               },
+               "type" : {
+                  "llvmIr" : "void**"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4201239,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4201871,
+         "fncType" : "userDefined",
+         "name" : "___scrt_acquire_startup_lock",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4201818,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4201927,
+         "fncType" : "userDefined",
+         "name" : "___scrt_dllmain_after_initialize_c",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4201884,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4201951,
+         "fncType" : "userDefined",
+         "name" : "___scrt_dllmain_before_initialize_c",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4201937,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4201985,
+         "fncType" : "userDefined",
+         "name" : "___scrt_dllmain_crt_thread_attach",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4201954,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4202005,
+         "fncType" : "userDefined",
+         "name" : "___scrt_dllmain_crt_thread_detach",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4201992,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4202059,
+         "fncType" : "userDefined",
+         "name" : "___scrt_dllmain_exception_filter",
+         "parameters" : [
+            {
+               "name" : "instance",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%HINSTANCE__*"
+               }
+            },
+            {
+               "name" : "reason",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "reserved",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 8
+               },
+               "type" : {
+                  "llvmIr" : "void*"
+               }
+            },
+            {
+               "name" : "crt_dllmain",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 12
+               },
+               "type" : {
+                  "llvmIr" : "i32(%HINSTANCE__*, i32, void*)*"
+               }
+            },
+            {
+               "name" : "exception_code_",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 16
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "exception_info_",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 20
+               },
+               "type" : {
+                  "llvmIr" : "%_EXCEPTION_POINTERS*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4202008,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4202106,
+         "fncType" : "userDefined",
+         "name" : "___scrt_dllmain_uninitialize_c",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4202071,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4202127,
+         "fncType" : "userDefined",
+         "name" : "___scrt_dllmain_uninitialize_critical",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4202114,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203473,
+         "fncType" : "userDefined",
+         "name" : "___scrt_fastfail",
+         "parameters" : [
+            {
+               "name" : "code",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4203189,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "ellipsis",
+         "endAddr" : 4203189,
+         "fncType" : "userDefined",
+         "name" : "___scrt_get_dyn_tls_dtor_callback",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "void(void*, i32, void*)**"
+         },
+         "startAddr" : 4203183,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "ellipsis",
+         "endAddr" : 4203183,
+         "fncType" : "userDefined",
+         "name" : "___scrt_get_dyn_tls_init_callback",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "void(void*, i32, void*)**"
+         },
+         "startAddr" : 4203177,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203595,
+         "fncType" : "userDefined",
+         "name" : "___scrt_get_show_window_mode",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "ax"
+         },
+         "returnType" : {
+            "llvmIr" : "i16"
+         },
+         "startAddr" : 4203544,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4202187,
+         "fncType" : "userDefined",
+         "name" : "___scrt_initialize_crt",
+         "parameters" : [
+            {
+               "name" : "module_type",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4202130,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203155,
+         "fncType" : "userDefined",
+         "name" : "___scrt_initialize_default_local_stdio_options",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203126,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4202413,
+         "fncType" : "userDefined",
+         "name" : "___scrt_initialize_onexit_tables",
+         "parameters" : [
+            {
+               "name" : "module_type",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4202201,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203610,
+         "fncType" : "userDefined",
+         "name" : "___scrt_initialize_winrt",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203607,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203678,
+         "fncType" : "userDefined",
+         "name" : "___scrt_is_managed_app",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4203610,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4202551,
+         "fncType" : "userDefined",
+         "name" : "___scrt_is_nonwritable_in_current_image",
+         "parameters" : [
+            {
+               "name" : "target",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4202413,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "ellipsis",
+         "endAddr" : 4204599,
+         "fncType" : "userDefined",
+         "name" : "___scrt_is_ucrt_dll_in_use",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204587,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "ellipsis",
+         "endAddr" : 4203174,
+         "fncType" : "userDefined",
+         "name" : "___scrt_is_user_matherr_present",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203162,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4202614,
+         "fncType" : "userDefined",
+         "name" : "___scrt_release_startup_lock",
+         "parameters" : [
+            {
+               "name" : "is_nested",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i1"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4202585,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203707,
+         "fncType" : "userDefined",
+         "name" : "___scrt_set_unhandled_exception_filter",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203695,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204928,
+         "fncType" : "userDefined",
+         "name" : "___scrt_stub_for_acrt_initialize",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4204925,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "__scrt_unhandled_exception_filter(x)",
+         "endAddr" : 4203791,
+         "fncType" : "userDefined",
+         "name" : "___scrt_unhandled_exception_filter@4",
+         "parameters" : [
+            {
+               "name" : "pointers",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%_EXCEPTION_POINTERS*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203710,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4202661,
+         "fncType" : "userDefined",
+         "name" : "___scrt_uninitialize_crt",
+         "parameters" : [
+            {
+               "name" : "is_terminating",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i1"
+               }
+            },
+            {
+               "name" : "from_exit",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i1"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4202621,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203004,
+         "fncType" : "userDefined",
+         "name" : "___security_init_cookie",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4202929,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204703,
+         "fncType" : "userDefined",
+         "name" : "___setusermatherr",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204697,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204655,
+         "fncType" : "userDefined",
+         "name" : "___std_type_info_destroy_list",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204649,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204685,
+         "fncType" : "userDefined",
+         "name" : "___stdio_common_vfprintf",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204679,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204931,
+         "fncType" : "userDefined",
+         "name" : "___vcrt_thread_attach",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4204928,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204775,
+         "fncType" : "userDefined",
+         "name" : "__c_exit",
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4204769,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204769,
+         "fncType" : "userDefined",
+         "name" : "__cexit",
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4204763,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204787,
+         "fncType" : "userDefined",
+         "name" : "__configthreadlocale",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204781,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204709,
+         "fncType" : "userDefined",
+         "name" : "__configure_narrow_argv",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204703,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204841,
+         "fncType" : "userDefined",
+         "name" : "__controlfp_s",
+         "parameters" : [
+            {
+               "name" : "CurrentState",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32*"
+               }
+            },
+            {
+               "name" : "NewValue",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "Mask",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 8
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204835,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204835,
+         "fncType" : "userDefined",
+         "name" : "__crt_at_quick_exit",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204829,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204829,
+         "fncType" : "userDefined",
+         "name" : "__crt_atexit",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204823,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203799,
+         "fncType" : "userDefined",
+         "name" : "__crt_debugger_hook",
+         "parameters" : [
+            {
+               "name" : "reserved",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4203791,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204068,
+         "fncType" : "userDefined",
+         "name" : "__except_handler4",
+         "parameters" : [
+            {
+               "name" : "ExceptionRecord",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%_EXCEPTION_RECORD*"
+               }
+            },
+            {
+               "name" : "EstablisherFrame",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "%_EXCEPTION_REGISTRATION_RECORD*"
+               }
+            },
+            {
+               "name" : "ContextRecord",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 8
+               },
+               "type" : {
+                  "llvmIr" : "%_CONTEXT*"
+               }
+            },
+            {
+               "name" : "DispatcherContext",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 12
+               },
+               "type" : {
+                  "llvmIr" : "void*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204033,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204667,
+         "fncType" : "userDefined",
+         "name" : "__except_handler4_common",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204661,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204823,
+         "fncType" : "userDefined",
+         "name" : "__execute_onexit_table",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204817,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204745,
+         "fncType" : "userDefined",
+         "name" : "__exit",
+         "parameters" : [
+            {
+               "name" : "Code",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4204739,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4202910,
+         "fncType" : "userDefined",
+         "name" : "__get_entropy",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4202831,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204721,
+         "fncType" : "userDefined",
+         "name" : "__get_initial_narrow_environment",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204715,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203029,
+         "fncType" : "userDefined",
+         "name" : "__get_startup_argv_mode",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203025,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203032,
+         "fncType" : "userDefined",
+         "name" : "__get_startup_commit_mode",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203029,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203038,
+         "fncType" : "userDefined",
+         "name" : "__get_startup_file_mode",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203032,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203041,
+         "fncType" : "userDefined",
+         "name" : "__get_startup_new_mode",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203038,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203044,
+         "fncType" : "userDefined",
+         "name" : "__get_startup_thread_locale_mode",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203041,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204645,
+         "fncType" : "userDefined",
+         "name" : "__guard_icall_checks_enforced",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204627,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "GetCurrentProcess()",
+         "endAddr" : 4222984,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__GetCurrentProcess@0",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "void*"
+         },
+         "startAddr" : 4222984,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "GetCurrentProcessId()",
+         "endAddr" : 4223012,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__GetCurrentProcessId@0",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4223012,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "GetCurrentThreadId()",
+         "endAddr" : 4222976,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__GetCurrentThreadId@0",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4222976,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "GetModuleHandleW(x)",
+         "endAddr" : 4222988,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__GetModuleHandleW@4",
+         "parameters" : [
+            {
+               "name" : "lpModuleName",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i16*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "%HINSTANCE__*"
+         },
+         "startAddr" : 4222988,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "GetStartupInfoW(x)",
+         "endAddr" : 4222992,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__GetStartupInfoW@4",
+         "parameters" : [
+            {
+               "name" : "lpStartupInfo",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%_STARTUPINFOW*"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4222992,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "GetSystemTimeAsFileTime(x)",
+         "endAddr" : 4223004,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__GetSystemTimeAsFileTime@4",
+         "parameters" : [
+            {
+               "name" : "lpSystemTimeAsFileTime",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%_FILETIME*"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4223004,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "InitializeSListHead(x)",
+         "endAddr" : 4223000,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__InitializeSListHead@4",
+         "parameters" : [
+            {
+               "name" : "ListHead",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32*"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4223000,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "IsDebuggerPresent()",
+         "endAddr" : 4222996,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__IsDebuggerPresent@0",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4222996,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "IsProcessorFeaturePresent(x)",
+         "endAddr" : 4223020,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__IsProcessorFeaturePresent@4",
+         "parameters" : [
+            {
+               "name" : "ProcessorFeature",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4223020,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "QueryPerformanceCounter(x)",
+         "endAddr" : 4223016,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__QueryPerformanceCounter@4",
+         "parameters" : [
+            {
+               "name" : "lpPerformanceCount",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4223016,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "SetUnhandledExceptionFilter(x)",
+         "endAddr" : 4222980,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__SetUnhandledExceptionFilter@4",
+         "parameters" : [
+            {
+               "name" : "lpTopLevelExceptionFilter",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32(%_EXCEPTION_POINTERS*)*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32(%_EXCEPTION_POINTERS*)*"
+         },
+         "startAddr" : 4222980,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "TerminateProcess(x,x)",
+         "endAddr" : 4223024,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__TerminateProcess@8",
+         "parameters" : [
+            {
+               "name" : "hProcess",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void*"
+               }
+            },
+            {
+               "name" : "uExitCode",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4223024,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "UnhandledExceptionFilter(x)",
+         "endAddr" : 4223008,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__UnhandledExceptionFilter@4",
+         "parameters" : [
+            {
+               "name" : "ExceptionInfo",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%_EXCEPTION_POINTERS*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4223008,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4223300,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp___c_exit",
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4223300,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4223280,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp___cexit",
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4223280,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4223312,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp___controlfp_s",
+         "parameters" : [
+            {
+               "name" : "CurrentState",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32*"
+               }
+            },
+            {
+               "name" : "NewValue",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "Mask",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 8
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4223312,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4223288,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp___exit",
+         "parameters" : [
+            {
+               "name" : "Code",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4223288,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4223444,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp___set_fmode",
+         "parameters" : [
+            {
+               "name" : "Mode",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4223444,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4223340,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__exit",
+         "parameters" : [
+            {
+               "name" : "Code",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4223340,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4223432,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__getchar",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4223432,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4223080,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__imp__memset",
+         "parameters" : [
+            {
+               "name" : "Dst",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void*"
+               }
+            },
+            {
+               "name" : "Val",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "Size",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 8
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "void*"
+         },
+         "startAddr" : 4223080,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203118,
+         "fncType" : "userDefined",
+         "name" : "__initialize_default_precision",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203077,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203120,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__initialize_denormal_control",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203119,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203119,
+         "fncType" : "dynamicallyLinked",
+         "name" : "__initialize_invalid_parameter_handler",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203118,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204715,
+         "fncType" : "userDefined",
+         "name" : "__initialize_narrow_environment",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204709,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204811,
+         "fncType" : "userDefined",
+         "name" : "__initialize_onexit_table",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204805,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204727,
+         "fncType" : "userDefined",
+         "name" : "__initterm",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204721,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204733,
+         "fncType" : "userDefined",
+         "name" : "__initterm_e",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204727,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204943,
+         "fncType" : "userDefined",
+         "name" : "__is_c_termination_complete",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204940,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203025,
+         "fncType" : "userDefined",
+         "name" : "__matherr",
+         "parameters" : [
+            {
+               "name" : "__formal",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%_exception*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4203022,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4202730,
+         "fncType" : "userDefined",
+         "name" : "__onexit",
+         "parameters" : [
+            {
+               "name" : "function",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32()*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32()*"
+         },
+         "startAddr" : 4202671,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204817,
+         "fncType" : "userDefined",
+         "name" : "__register_onexit_function",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204811,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204781,
+         "fncType" : "userDefined",
+         "name" : "__register_thread_local_exe_atexit_callback",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204775,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4200321,
+         "fncType" : "userDefined",
+         "name" : "__scrt_common_main_seh",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4200007,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204805,
+         "fncType" : "userDefined",
+         "name" : "__seh_filter_dll",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204799,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204691,
+         "fncType" : "userDefined",
+         "name" : "__seh_filter_exe",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204685,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204697,
+         "fncType" : "userDefined",
+         "name" : "__set_app_type",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204691,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204751,
+         "fncType" : "userDefined",
+         "name" : "__set_fmode",
+         "parameters" : [
+            {
+               "name" : "Mode",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204745,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204793,
+         "fncType" : "userDefined",
+         "name" : "__set_new_mode",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204787,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4203077,
+         "fncType" : "userDefined",
+         "name" : "__should_initialize_environment",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4203074,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4199642,
+         "fncType" : "userDefined",
+         "name" : "__vfprintf_l",
+         "parameters" : [
+            {
+               "name" : "_Stream",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%_iobuf*"
+               }
+            },
+            {
+               "name" : "_Format",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i8*"
+               }
+            },
+            {
+               "name" : "_Locale",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 8
+               },
+               "type" : {
+                  "llvmIr" : "%__crt_locale_pointers*"
+               }
+            },
+            {
+               "name" : "_ArgList",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 12
+               },
+               "type" : {
+                  "llvmIr" : "i8*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4199600,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4202793,
+         "fncType" : "userDefined",
+         "name" : "_at_quick_exit",
+         "parameters" : [
+            {
+               "name" : "function",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void()*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4202744,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4202826,
+         "fncType" : "userDefined",
+         "name" : "_atexit",
+         "parameters" : [
+            {
+               "name" : "function",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void()*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4202805,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204739,
+         "fncType" : "userDefined",
+         "name" : "_exit_0",
+         "parameters" : [
+            {
+               "name" : "Code",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4204733,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4199502,
+         "fncType" : "userDefined",
+         "name" : "_function",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4199312,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204679,
+         "fncType" : "userDefined",
+         "name" : "_getchar",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204673,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "ellipsis",
+         "endAddr" : 4199522,
+         "fncType" : "userDefined",
+         "name" : "_main",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4199504,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4200599,
+         "fncType" : "userDefined",
+         "name" : "_mainCRTStartup",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4200589,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4204661,
+         "fncType" : "userDefined",
+         "name" : "_memset",
+         "parameters" : [
+            {
+               "name" : "Dst",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void*"
+               }
+            },
+            {
+               "name" : "Val",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "Size",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 8
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "void*"
+         },
+         "startAddr" : 4204655,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "ellipsis",
+         "endAddr" : 4199723,
+         "fncType" : "userDefined",
+         "name" : "_printf",
+         "parameters" : [
+            {
+               "name" : "_Format",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i8*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4199664,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "unknown",
+         "endAddr" : 4204847,
+         "fncType" : "userDefined",
+         "name" : "_terminate",
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4204841,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4201731,
+         "fncType" : "userDefined",
+         "name" : "find_pe_section",
+         "parameters" : [
+            {
+               "name" : "image_base",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i8*"
+               }
+            },
+            {
+               "name" : "rva",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "%_IMAGE_SECTION_HEADER*"
+         },
+         "startAddr" : 4201663,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4200532,
+         "fncType" : "userDefined",
+         "name" : "invoke_main",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4200496,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4201799,
+         "fncType" : "userDefined",
+         "name" : "is_potentially_valid_image_base",
+         "parameters" : [
+            {
+               "name" : "image_base",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4201748,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "j___crt_fast_decode_pointer<void (**)(void)>(void (** const)(void))",
+         "endAddr" : 4198555,
+         "fncType" : "userDefined",
+         "name" : "j_??$__crt_fast_decode_pointer@PAP6AXXZ@@YAPAP6AXXZQAP6AXXZ@Z",
+         "parameters" : [
+            {
+               "name" : "p",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void()**"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "void()**"
+         },
+         "startAddr" : 4198550,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "j___crt_fast_encode_pointer<void (**)(void)>(void (** const)(void))",
+         "endAddr" : 4198795,
+         "fncType" : "userDefined",
+         "name" : "j_??$__crt_fast_encode_pointer@PAP6AXXZ@@YAPAP6AXXZQAP6AXXZ@Z",
+         "parameters" : [
+            {
+               "name" : "p",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void()**"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "void()**"
+         },
+         "startAddr" : 4198790,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "j___crt_rotate_pointer_value(uint,int)",
+         "endAddr" : 4198620,
+         "fncType" : "userDefined",
+         "name" : "j_?__crt_rotate_pointer_value@@YAIIH@Z",
+         "parameters" : [
+            {
+               "name" : "value",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "shift",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198615,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "j___scrt_initialize_type_info(void)",
+         "endAddr" : 4198680,
+         "fncType" : "userDefined",
+         "name" : "j_?__scrt_initialize_type_info@@YAXXZ",
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4198675,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "j___scrt_uninitialize_type_info(void)",
+         "endAddr" : 4198685,
+         "fncType" : "userDefined",
+         "name" : "j_?__scrt_uninitialize_type_info@@YAXXZ",
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4198680,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "j___scrt_narrow_argv_policy::configure_argv(void)",
+         "endAddr" : 4198715,
+         "fncType" : "userDefined",
+         "name" : "j_?configure_argv@__scrt_narrow_argv_policy@@SAHXZ",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198710,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "j___scrt_narrow_environment_policy::initialize_environment(void)",
+         "endAddr" : 4198800,
+         "fncType" : "userDefined",
+         "name" : "j_?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198795,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "j___scrt_main_policy::set_app_type(void)",
+         "endAddr" : 4198850,
+         "fncType" : "userDefined",
+         "name" : "j_?set_app_type@__scrt_main_policy@@SAXXZ",
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4198845,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "j___scrt_file_policy::set_commode(void)",
+         "endAddr" : 4198440,
+         "fncType" : "userDefined",
+         "name" : "j_?set_commode@__scrt_file_policy@@SAXXZ",
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4198435,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "demangledName" : "j___scrt_file_policy::set_fmode(void)",
+         "endAddr" : 4198435,
+         "fncType" : "userDefined",
+         "name" : "j_?set_fmode@__scrt_file_policy@@SAXXZ",
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4198430,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "fastcall",
+         "demangledName" : "j___security_check_cookie(x)",
+         "endAddr" : 4198730,
+         "fncType" : "userDefined",
+         "name" : "j_@__security_check_cookie@4",
+         "parameters" : [
+            {
+               "name" : "cookie",
+               "storage" : {
+                  "type" : "register",
+                  "value" : "ecx"
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4198725,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198475,
+         "fncType" : "userDefined",
+         "name" : "j__NtCurrentTeb",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32*"
+         },
+         "startAddr" : 4198470,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198790,
+         "fncType" : "userDefined",
+         "name" : "j__ReadNoFence",
+         "parameters" : [
+            {
+               "name" : "Source",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198785,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198445,
+         "fncType" : "userDefined",
+         "name" : "j__ReadPointerNoFence",
+         "parameters" : [
+            {
+               "name" : "Source",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void**"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "void*"
+         },
+         "startAddr" : 4198440,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198520,
+         "fncType" : "userDefined",
+         "name" : "j___RTC_Initialize",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198515,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198600,
+         "fncType" : "userDefined",
+         "name" : "j___RTC_Terminate",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198595,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198675,
+         "fncType" : "userDefined",
+         "name" : "j___SEH_epilog4",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198670,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198690,
+         "fncType" : "userDefined",
+         "name" : "j___SEH_prolog4",
+         "parameters" : [
+            {
+               "name" : "a1",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "a2",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198685,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198485,
+         "fncType" : "userDefined",
+         "name" : "j____acrt_thread_detach",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198480,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198575,
+         "fncType" : "userDefined",
+         "name" : "j____acrt_thread_detach_0",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198570,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198635,
+         "fncType" : "userDefined",
+         "name" : "j____acrt_thread_detach_1",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198630,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198415,
+         "fncType" : "userDefined",
+         "name" : "j____acrt_uninitialize",
+         "parameters" : [
+            {
+               "name" : "__formal",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i1"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198410,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198670,
+         "fncType" : "userDefined",
+         "name" : "j____acrt_uninitialize_0",
+         "parameters" : [
+            {
+               "name" : "__formal",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i1"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198665,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198500,
+         "fncType" : "userDefined",
+         "name" : "j____acrt_uninitialize_1",
+         "parameters" : [
+            {
+               "name" : "__formal",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i1"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198495,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198535,
+         "fncType" : "userDefined",
+         "name" : "j____acrt_uninitialize_critical",
+         "parameters" : [
+            {
+               "name" : "__formal",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i1"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198530,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198425,
+         "fncType" : "userDefined",
+         "name" : "j____acrt_uninitialize_critical_0",
+         "parameters" : [
+            {
+               "name" : "__formal",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i1"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198420,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198590,
+         "fncType" : "userDefined",
+         "name" : "j____acrt_uninitialize_critical_1",
+         "parameters" : [
+            {
+               "name" : "__formal",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i1"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198585,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "ellipsis",
+         "endAddr" : 4198545,
+         "fncType" : "userDefined",
+         "name" : "j____isa_available_init",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198540,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198830,
+         "fncType" : "userDefined",
+         "name" : "j____local_stdio_printf_options",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i64*"
+         },
+         "startAddr" : 4198825,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198660,
+         "fncType" : "userDefined",
+         "name" : "j____local_stdio_scanf_options",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i64*"
+         },
+         "startAddr" : 4198655,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198640,
+         "fncType" : "userDefined",
+         "name" : "j____raise_securityfailure",
+         "parameters" : [
+            {
+               "name" : "ExceptionInfo",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%_EXCEPTION_POINTERS*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198635,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198785,
+         "fncType" : "userDefined",
+         "name" : "j____report_gsfailure",
+         "parameters" : [
+            {
+               "name" : "a1",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i8"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198780,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198570,
+         "fncType" : "userDefined",
+         "name" : "j____report_rangecheckfailure",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198565,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198525,
+         "fncType" : "userDefined",
+         "name" : "j____report_securityfailure",
+         "parameters" : [
+            {
+               "name" : "failure_code",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4198520,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198645,
+         "fncType" : "userDefined",
+         "name" : "j____report_securityfailureEx",
+         "parameters" : [
+            {
+               "name" : "failure_code",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "parameter_count",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "parameters",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 8
+               },
+               "type" : {
+                  "llvmIr" : "void**"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4198640,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198815,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_acquire_startup_lock",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198810,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198595,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_dllmain_after_initialize_c",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198590,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198825,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_dllmain_before_initialize_c",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198820,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198765,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_dllmain_crt_thread_attach",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198760,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198770,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_dllmain_crt_thread_detach",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198765,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198705,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_dllmain_exception_filter",
+         "parameters" : [
+            {
+               "name" : "instance",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%HINSTANCE__*"
+               }
+            },
+            {
+               "name" : "reason",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "reserved",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 8
+               },
+               "type" : {
+                  "llvmIr" : "void*"
+               }
+            },
+            {
+               "name" : "crt_dllmain",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 12
+               },
+               "type" : {
+                  "llvmIr" : "i32(%HINSTANCE__*, i32, void*)*"
+               }
+            },
+            {
+               "name" : "exception_code_",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 16
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            },
+            {
+               "name" : "exception_info_",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 20
+               },
+               "type" : {
+                  "llvmIr" : "%_EXCEPTION_POINTERS*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198700,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198725,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_dllmain_uninitialize_c",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198720,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198840,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_dllmain_uninitialize_critical",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198835,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198465,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_fastfail",
+         "parameters" : [
+            {
+               "name" : "code",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4198460,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "ellipsis",
+         "endAddr" : 4198515,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_get_dyn_tls_dtor_callback",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "void(void*, i32, void*)**"
+         },
+         "startAddr" : 4198510,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "ellipsis",
+         "endAddr" : 4198735,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_get_dyn_tls_init_callback",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "void(void*, i32, void*)**"
+         },
+         "startAddr" : 4198730,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198750,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_get_show_window_mode",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "ax"
+         },
+         "returnType" : {
+            "llvmIr" : "i16"
+         },
+         "startAddr" : 4198745,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198740,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_initialize_crt",
+         "parameters" : [
+            {
+               "name" : "module_type",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198735,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198710,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_initialize_default_local_stdio_options",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198705,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198700,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_initialize_onexit_tables",
+         "parameters" : [
+            {
+               "name" : "module_type",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198695,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198495,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_initialize_winrt",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198490,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198550,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_is_managed_app",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198545,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198845,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_is_nonwritable_in_current_image",
+         "parameters" : [
+            {
+               "name" : "target",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198840,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "ellipsis",
+         "endAddr" : 4198470,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_is_ucrt_dll_in_use",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198465,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "ellipsis",
+         "endAddr" : 4198540,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_is_user_matherr_present",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198535,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198810,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_release_startup_lock",
+         "parameters" : [
+            {
+               "name" : "is_nested",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i1"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4198805,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198580,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_set_unhandled_exception_filter",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198575,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198420,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_stub_for_acrt_initialize",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198415,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198695,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_stub_for_acrt_initialize_0",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198690,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198460,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_stub_for_acrt_initialize_1",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198455,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "stdcall",
+         "demangledName" : "j___scrt_unhandled_exception_filter(x)",
+         "endAddr" : 4198565,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_unhandled_exception_filter@4",
+         "parameters" : [
+            {
+               "name" : "pointers",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%_EXCEPTION_POINTERS*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198560,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198585,
+         "fncType" : "userDefined",
+         "name" : "j____scrt_uninitialize_crt",
+         "parameters" : [
+            {
+               "name" : "is_terminating",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i1"
+               }
+            },
+            {
+               "name" : "from_exit",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i1"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198580,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198665,
+         "fncType" : "userDefined",
+         "name" : "j____security_init_cookie",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198660,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198530,
+         "fncType" : "userDefined",
+         "name" : "j____vcrt_thread_attach",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198525,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198755,
+         "fncType" : "userDefined",
+         "name" : "j____vcrt_thread_attach_0",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198750,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198625,
+         "fncType" : "userDefined",
+         "name" : "j____vcrt_thread_attach_1",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198620,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198430,
+         "fncType" : "userDefined",
+         "name" : "j___crt_debugger_hook",
+         "parameters" : [
+            {
+               "name" : "reserved",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4198425,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198410,
+         "fncType" : "userDefined",
+         "name" : "j___get_startup_argv_mode",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198405,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198480,
+         "fncType" : "userDefined",
+         "name" : "j___get_startup_commit_mode",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198475,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198835,
+         "fncType" : "userDefined",
+         "name" : "j___get_startup_file_mode",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198830,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198630,
+         "fncType" : "userDefined",
+         "name" : "j___get_startup_new_mode",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198625,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198505,
+         "fncType" : "userDefined",
+         "name" : "j___get_startup_thread_locale_mode",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198500,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198655,
+         "fncType" : "userDefined",
+         "name" : "j___guard_icall_checks_enforced",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198650,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198450,
+         "fncType" : "userDefined",
+         "name" : "j___initialize_default_precision",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198445,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198775,
+         "fncType" : "userDefined",
+         "name" : "j___is_c_termination_complete",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198770,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198805,
+         "fncType" : "userDefined",
+         "name" : "j___is_c_termination_complete_0",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198800,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198610,
+         "fncType" : "userDefined",
+         "name" : "j___matherr",
+         "parameters" : [
+            {
+               "name" : "__formal",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%_exception*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198605,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198720,
+         "fncType" : "userDefined",
+         "name" : "j___onexit",
+         "parameters" : [
+            {
+               "name" : "function",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i32()*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32()*"
+         },
+         "startAddr" : 4198715,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198855,
+         "fncType" : "userDefined",
+         "name" : "j___should_initialize_environment",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "al"
+         },
+         "returnType" : {
+            "llvmIr" : "i1"
+         },
+         "startAddr" : 4198850,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198615,
+         "fncType" : "userDefined",
+         "name" : "j___vfprintf_l",
+         "parameters" : [
+            {
+               "name" : "_Stream",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "%_iobuf*"
+               }
+            },
+            {
+               "name" : "_Format",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 4
+               },
+               "type" : {
+                  "llvmIr" : "i8*"
+               }
+            },
+            {
+               "name" : "_Locale",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 8
+               },
+               "type" : {
+                  "llvmIr" : "%__crt_locale_pointers*"
+               }
+            },
+            {
+               "name" : "_ArgList",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 12
+               },
+               "type" : {
+                  "llvmIr" : "i8*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198610,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198560,
+         "fncType" : "userDefined",
+         "name" : "j__at_quick_exit",
+         "parameters" : [
+            {
+               "name" : "function",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void()*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198555,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198510,
+         "fncType" : "userDefined",
+         "name" : "j__atexit",
+         "parameters" : [
+            {
+               "name" : "function",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "void()*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198505,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198490,
+         "fncType" : "userDefined",
+         "name" : "j__function",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198485,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "ellipsis",
+         "endAddr" : 4198760,
+         "fncType" : "userDefined",
+         "name" : "j__main",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198755,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "ellipsis",
+         "endAddr" : 4198820,
+         "fncType" : "userDefined",
+         "name" : "j__printf",
+         "parameters" : [
+            {
+               "name" : "_Format",
+               "storage" : {
+                  "type" : "stack",
+                  "value" : 0
+               },
+               "type" : {
+                  "llvmIr" : "i8*"
+               }
+            }
+         ],
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198815,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "fastcall",
+         "endAddr" : 4198780,
+         "fncType" : "userDefined",
+         "name" : "j_j____guard_check_icall_fptr",
+         "parameters" : [
+            {
+               "name" : "Target",
+               "storage" : {
+                  "type" : "register",
+                  "value" : "ecx"
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4198775,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "fastcall",
+         "endAddr" : 4198745,
+         "fncType" : "userDefined",
+         "name" : "j_nullsub_1",
+         "parameters" : [
+            {
+               "name" : "Target",
+               "storage" : {
+                  "type" : "register",
+                  "value" : "ecx"
+               },
+               "type" : {
+                  "llvmIr" : "i32"
+               }
+            }
+         ],
+         "returnType" : {
+            "llvmIr" : "void"
+         },
+         "startAddr" : 4198740,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198605,
+         "fncType" : "userDefined",
+         "name" : "j_nullsub_2",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198600,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198650,
+         "fncType" : "userDefined",
+         "name" : "j_nullsub_3",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198645,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4200004,
+         "fncType" : "userDefined",
+         "name" : "pre_c_initialization",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4199758,
+         "usedCryptoConstants" : []
+      },
+      {
+         "callingConvention" : "cdecl",
+         "endAddr" : 4198455,
+         "fncType" : "userDefined",
+         "name" : "start",
+         "returnStorage" : {
+            "type" : "register",
+            "value" : "eax"
+         },
+         "returnType" : {
+            "llvmIr" : "i32"
+         },
+         "startAddr" : 4198450,
+         "usedCryptoConstants" : []
+      }
+   ],
+   "globals" : [
+      {
+         "name" : "$LN14",
+         "storage" : {
+            "type" : "global",
+            "value" : 4202370
+         },
+         "type" : {
+            "llvmIr" : "[43 x i8]"
+         }
+      },
+      {
+         "name" : "$LN4",
+         "storage" : {
+            "type" : "global",
+            "value" : 4203109
+         },
+         "type" : {
+            "llvmIr" : "[9 x i8]"
+         }
+      },
+      {
+         "name" : "$LN5",
+         "storage" : {
+            "type" : "global",
+            "value" : 4203774
+         },
+         "type" : {
+            "llvmIr" : "[17 x i8]"
+         }
+      },
+      {
+         "name" : "?_OptionsStorage@?1??__local_stdio_printf_options@@9@9",
+         "storage" : {
+            "type" : "global",
+            "value" : 4220016
+         },
+         "type" : {
+            "llvmIr" : "i64"
+         }
+      },
+      {
+         "name" : "?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA",
+         "storage" : {
+            "type" : "global",
+            "value" : 4220248
+         },
+         "type" : {
+            "llvmIr" : "i64"
+         }
+      },
+      {
+         "name" : "?__type_info_root_node@@3U__type_info_node@@A",
+         "storage" : {
+            "type" : "global",
+            "value" : 4220216
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "GS_ContextRecord",
+         "storage" : {
+            "type" : "global",
+            "value" : 4219296
+         },
+         "type" : {
+            "llvmIr" : "%_CONTEXT"
+         }
+      },
+      {
+         "name" : "GS_ExceptionPointers",
+         "storage" : {
+            "type" : "global",
+            "value" : 4213552
+         },
+         "type" : {
+            "llvmIr" : "%_EXCEPTION_POINTERS"
+         }
+      },
+      {
+         "name" : "GS_ExceptionRecord",
+         "storage" : {
+            "type" : "global",
+            "value" : 4219216
+         },
+         "type" : {
+            "llvmIr" : "%_EXCEPTION_RECORD"
+         }
+      },
+      {
+         "name" : "_KERNEL32_NULL_THUNK_DATA",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223028
+         },
+         "type" : {
+            "llvmIr" : "[52 x i8]"
+         }
+      },
+      {
+         "name" : "_VCRUNTIME140_NULL_THUNK_DATA",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223092
+         },
+         "type" : {
+            "llvmIr" : "[44 x i8]"
+         }
+      },
+      {
+         "name" : "___favor",
+         "storage" : {
+            "type" : "global",
+            "value" : 4220268
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "___guard_check_icall_fptr",
+         "storage" : {
+            "type" : "global",
+            "value" : 4227072
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "___isa_available",
+         "storage" : {
+            "type" : "global",
+            "value" : 4220264
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "___isa_enabled",
+         "storage" : {
+            "type" : "global",
+            "value" : 4218944
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "___safe_se_handler_table",
+         "storage" : {
+            "type" : "global",
+            "value" : 4214096
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "___scrt_current_native_startup_state",
+         "storage" : {
+            "type" : "global",
+            "value" : 4220172
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "___scrt_debugger_hook_flag",
+         "storage" : {
+            "type" : "global",
+            "value" : 4220260
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "___scrt_default_matherr",
+         "storage" : {
+            "type" : "global",
+            "value" : 4218932
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "___scrt_ucrt_dll_is_in_use",
+         "storage" : {
+            "type" : "global",
+            "value" : 4218948
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "___security_cookie",
+         "storage" : {
+            "type" : "global",
+            "value" : 4218916
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "___security_cookie_complement",
+         "storage" : {
+            "type" : "global",
+            "value" : 4218920
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp____acrt_iob_func",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223436
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp____p___argc",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223292
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp____p___argv",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223284
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp____p__commode",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223440
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp____setusermatherr",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223232
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp____std_type_info_destroy_list",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223088
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp____stdio_common_vfprintf",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223428
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___configthreadlocale",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223184
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___configure_narrow_argv",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223360
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___crt_at_quick_exit",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223308
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___crt_atexit",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223304
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___except_handler4_common",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223084
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___execute_onexit_table",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223324
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___get_initial_narrow_environment",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223352
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___initialize_narrow_environment",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223356
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___initialize_onexit_table",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223332
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___initterm",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223348
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___initterm_e",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223344
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___register_onexit_function",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223296
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___register_thread_local_exe_atexit_callback",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223328
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___seh_filter_dll",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223336
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___seh_filter_exe",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223320
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___set_app_type",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223364
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp___set_new_mode",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223136
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__imp__terminate",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223316
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "__load_config_used",
+         "storage" : {
+            "type" : "global",
+            "value" : 4213624
+         },
+         "type" : {
+            "llvmIr" : "i32"
+         }
+      },
+      {
+         "name" : "_api_ms_win_crt_heap_l1_1_0_NULL_THUNK_DATA",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223140
+         },
+         "type" : {
+            "llvmIr" : "[44 x i8]"
+         }
+      },
+      {
+         "name" : "_api_ms_win_crt_locale_l1_1_0_NULL_THUNK_DATA",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223188
+         },
+         "type" : {
+            "llvmIr" : "[44 x i8]"
+         }
+      },
+      {
+         "name" : "_api_ms_win_crt_math_l1_1_0_NULL_THUNK_DATA",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223236
+         },
+         "type" : {
+            "llvmIr" : "[44 x i8]"
+         }
+      },
+      {
+         "name" : "_api_ms_win_crt_runtime_l1_1_0_NULL_THUNK_DATA",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223368
+         },
+         "type" : {
+            "llvmIr" : "[60 x i8]"
+         }
+      },
+      {
+         "name" : "_api_ms_win_crt_stdio_l1_1_0_NULL_THUNK_DATA",
+         "storage" : {
+            "type" : "global",
+            "value" : 4223448
+         },
+         "type" : {
+            "llvmIr" : "[48 x i8]"
+         }
+      },
+      {
+         "name" : "_msg_ouput",
+         "storage" : {
+            "type" : "global",
+            "value" : 4218880
+         },
+         "type" : {
+            "llvmIr" : "i8*"
+         }
+      },
+      {
+         "name" : "asc_404E54",
+         "storage" : {
+            "type" : "global",
+            "value" : 4214356
+         },
+         "type" : {
+            "llvmIr" : "[4 x i8]"
+         }
+      },
+      {
+         "name" : "byte_403FFF",
+         "storage" : {
+            "type" : "global",
+            "value" : 4210687
+         },
+         "type" : {
+            "llvmIr" : "i8"
+         }
+      },
+      {
+         "name" : "is_initialized_as_dll",
+         "storage" : {
+            "type" : "global",
+            "value" : 4220205
+         },
+         "type" : {
+            "llvmIr" : "i1"
+         }
+      },
+      {
+         "name" : "module_local_at_quick_exit_table",
+         "storage" : {
+            "type" : "global",
+            "value" : 4220192
+         },
+         "type" : {
+            "llvmIr" : "%_onexit_table_t"
+         }
+      },
+      {
+         "name" : "module_local_atexit_table",
+         "storage" : {
+            "type" : "global",
+            "value" : 4220180
+         },
+         "type" : {
+            "llvmIr" : "%_onexit_table_t"
+         }
+      },
+      {
+         "name" : "module_local_atexit_table_initialized",
+         "storage" : {
+            "type" : "global",
+            "value" : 4220204
+         },
+         "type" : {
+            "llvmIr" : "i1"
+         }
+      },
+      {
+         "name" : "post_pgo_initializer",
+         "storage" : {
+            "type" : "global",
+            "value" : 4211988
+         },
+         "type" : {
+            "llvmIr" : "i32()*"
+         }
+      },
+      {
+         "name" : "pre_c_initializer",
+         "storage" : {
+            "type" : "global",
+            "value" : 4211728
+         },
+         "type" : {
+            "llvmIr" : "i32()*"
+         }
+      },
+      {
+         "name" : "pre_cpp_initializer",
+         "storage" : {
+            "type" : "global",
+            "value" : 4210948
+         },
+         "type" : {
+            "llvmIr" : "void()*"
+         }
+      },
+      {
+         "name" : "stru_4053C8",
+         "storage" : {
+            "type" : "global",
+            "value" : 4215752
+         },
+         "type" : {
+            "llvmIr" : "[1 x i32]"
+         }
+      },
+      {
+         "name" : "stru_4053E8",
+         "storage" : {
+            "type" : "global",
+            "value" : 4215784
+         },
+         "type" : {
+            "llvmIr" : "[1 x i32]"
+         }
+      }
+   ],
+   "ida" : true,
+   "inputFile" : "A:\\re\\c\\4\\4-array.idb",
+   "languages" : [],
+   "patterns" : [],
+   "registers" : [],
+   "segments" : [
+      {
+         "endAddr" : 4210688,
+         "name" : "_text",
+         "startAddr" : 4198400
+      },
+      {
+         "endAddr" : 4218880,
+         "name" : "_rdata",
+         "startAddr" : 4210688
+      },
+      {
+         "endAddr" : 4222976,
+         "name" : "_data",
+         "startAddr" : 4218880
+      },
+      {
+         "endAddr" : 4223496,
+         "name" : "_idata",
+         "startAddr" : 4222976
+      },
+      {
+         "endAddr" : 4231168,
+         "name" : "_00cfg",
+         "startAddr" : 4227072
+      }
+   ],
+   "structures" : [
+      {
+         "llvmIr" : "%HINSTANCE__ = type { i32 }"
+      },
+      {
+         "llvmIr" : "%_CONTEXT = type { i32, i32, i32, i32, i32, i32, i32, %_FLOATING_SAVE_AREA, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, [512 x i8] }"
+      },
+      {
+         "llvmIr" : "%_EXCEPTION_POINTERS = type { %_EXCEPTION_RECORD*, %_CONTEXT* }"
+      },
+      {
+         "llvmIr" : "%_EXCEPTION_RECORD = type { i32, i32, %_EXCEPTION_RECORD*, void*, i32, [15 x i32] }"
+      },
+      {
+         "llvmIr" : "%_EXCEPTION_REGISTRATION_RECORD = type { %_EXCEPTION_REGISTRATION_RECORD*, i32(%_EXCEPTION_RECORD*, void*, %_CONTEXT*, void*)* }"
+      },
+      {
+         "llvmIr" : "%_FILETIME = type { i32, i32 }"
+      },
+      {
+         "llvmIr" : "%_FLOATING_SAVE_AREA = type { i32, i32, i32, i32, i32, i32, i32, [80 x i8], i32 }"
+      },
+      {
+         "llvmIr" : "%_IMAGE_SECTION_HEADER = type { [8 x i8], i32, i32, i32, i32, i32, i32, i16, i16, i32 }"
+      },
+      {
+         "llvmIr" : "%_STARTUPINFOW = type { i32, i16*, i16*, i16*, i32, i32, i32, i32, i32, i32, i32, i32, i16, i16, i8*, void*, void*, void* }"
+      },
+      {
+         "llvmIr" : "%__crt_locale_pointers = type { i32*, i32* }"
+      },
+      {
+         "llvmIr" : "%_exception = type { i32, i8*, f80, f80, f80 }"
+      },
+      {
+         "llvmIr" : "%_iobuf = type { void* }"
+      },
+      {
+         "llvmIr" : "%_onexit_table_t = type { void()**, void()**, void()** }"
+      }
+   ],
+   "time" : "10:52:14",
+   "tools" : [],
+   "vtables" : []
+}
